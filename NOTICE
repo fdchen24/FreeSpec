@@ -1,0 +1,16 @@
+FreeSpec
+
+The standalone Wan2.1 example includes code from Wan2.1:
+Copyright 2024-2025 The Alibaba Wan Team Authors. All rights reserved.
+https://github.com/Wan-Video/Wan2.1
+License: Apache License 2.0 (see LICENSE and examples/Wan2.1/LICENSE).
+
+The LightX2V integration is adapted from the local LightX2V implementation:
+https://github.com/ModelTC/LightX2V
+License: Apache License 2.0 (see examples/LightX2V/LICENSE).
+Upstream runtime revision: d658c11edb77124387f275c1c080fcf9612ba8e1.
+
+FreeSpec modifications include singular-spectrum reconstruction, single-GPU
+T2V inference extraction, distilled checkpoint normalization, simplified public
+entry points and sample documentation. Changes are identified in source files
+and the example READMEs. Upstream copyright notices have been retained.

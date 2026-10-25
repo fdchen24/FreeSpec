@@ -1,0 +1,4 @@
+# Reuse the native LightX2V environment. This revision matches the extraction source.
+lightx2v @ git+https://github.com/ModelTC/LightX2V.git@d658c11edb77124387f275c1c080fcf9612ba8e1
+# FlashAttention 2 must also be installed for the CUDA/PyTorch combination.
+# pip install flash-attn --no-build-isolation

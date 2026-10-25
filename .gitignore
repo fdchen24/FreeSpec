@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+models/
+checkpoints/
+outputs/
+vendor/
+*.pt
+*.pth
+*.safetensors
+.DS_Store
