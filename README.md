@@ -1,9 +1,31 @@
-# FreeSpec
+<h1 align="center">
+  🎬 FreeSpec: Training-Free Long Video Generation<br>
+  via Singular-Spectrum Reconstruction
+</h1>
 
-Training-free long video generation through singular-spectrum reconstruction.
+<p align="center">
+  <strong>Fangda Chen</strong> ·
+  <strong>Shanshan Zhao</strong> ·
+  <strong>Longrong Yang</strong> ·
+  <strong>Chuanfu Xu</strong> ·
+  <strong>Zhigang Luo</strong> ·
+  <strong>Long Lan</strong>
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.06509"><img src="https://img.shields.io/badge/arXiv-2605.06509-b31b1b.svg" alt="arXiv:2605.06509"></a>
+  <a href="https://fdchen24.github.io/FreeSpec-Website/"><img src="https://img.shields.io/badge/Project_Page-FreeSpec-blue" alt="FreeSpec Project Page"></a>
+</p>
+
+## 🎯 Overview
+
+Official implementation of **FreeSpec**, a training-free framework for long video
+generation through singular-spectrum reconstruction.
 FreeSpec transfers the global attention spectrum into the local attention basis,
 modulates it by diffusion timestep and singular-value rank, and adds a lightweight
 global residual.
+
+## 📁 Examples
 
 This repository contains two Wan2.1-T2V-1.3B examples:
 
@@ -16,7 +38,7 @@ Each example uses its framework's own CUDA environment. There is no shared Conda
 environment or additional FreeSpec package to install. The LightX2V example also
 uses the original Wan tokenizer, T5 encoder, VAE and model configuration.
 
-## Quick start
+## ⚡ Quick Start
 
 ```bash
 git clone https://github.com/fdchen24/FreeSpec.git
@@ -59,7 +81,20 @@ Frame counts must be `4n+1`; width and height must be divisible by 16.
 Each generated video is saved with a neighboring JSON file containing the prompt,
 seed and sampling settings. Use `python generate.py --help` for all options.
 
-## Acknowledgements
+## 📚 Citation
+
+If you find FreeSpec useful in your research, please cite:
+
+```bibtex
+@article{chen2026freespec,
+  title={FreeSpec: Training-Free Long Video Generation via Singular-Spectrum Reconstruction},
+  author={Fangda Chen and Shanshan Zhao and Longrong Yang and Chuanfu Xu and Zhigang Luo and Long Lan},
+  year={2026},
+  journal={arXiv preprint arXiv:2605.06509},
+}
+```
+
+## 🙏 Acknowledgements
 
 This implementation builds on [Wan2.1](https://github.com/Wan-Video/Wan2.1) and
 [LightX2V](https://github.com/ModelTC/LightX2V).
