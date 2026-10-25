@@ -4,12 +4,12 @@
 </h1>
 
 <p align="center">
-  <strong>Fangda Chen</strong> ·
-  <strong>Shanshan Zhao</strong> ·
-  <strong>Longrong Yang</strong> ·
-  <strong>Chuanfu Xu</strong> ·
-  <strong>Zhigang Luo</strong> ·
-  <strong>Long Lan</strong>
+  <a href="https://fdchen24.github.io/"><strong>Fangda Chen</strong></a> ·
+  <a href="https://sshan-zhao.github.io/"><strong>Shanshan Zhao</strong></a> ·
+  <a href="https://longrongyang.github.io/yanglongrong.github.io/"><strong>Longrong Yang</strong></a> ·
+  <a href="https://scholar.google.com/citations?user=7OZMTAMAAAAJ"><strong>Chuanfu Xu</strong></a> ·
+  <a href="https://scholar.google.com/citations?user=fxUpaiMAAAAJ"><strong>Zhigang Luo</strong></a> ·
+  <a href="https://scholar.google.com/citations?user=huVW6Y8AAAAJ"><strong>Long Lan</strong></a>
 </p>
 
 <p align="center">
@@ -98,3 +98,5 @@ If you find FreeSpec useful in your research, please cite:
 
 This implementation builds on [Wan2.1](https://github.com/Wan-Video/Wan2.1) and
 [LightX2V](https://github.com/ModelTC/LightX2V).
+
+We thank all the contributors for their efforts in open-sourcing these projects.
